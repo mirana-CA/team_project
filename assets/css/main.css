@@ -20,4 +20,126 @@ main {
   margin-left: auto;
   border: 3px solid black;
   min-height: 100vh;
+}
+
+.skillsAnar {
+  padding: 60px 37.5px 135px;
+  width: 100%;
+}
+.skillsAnar .skills__speciality {
+  margin-bottom: 15px;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999999;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+.skillsAnar .skills__myskills {
+  font-size: 18px;
+  margin-bottom: 4em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  position: relative;
+}
+.skillsAnar .skills__explanation {
+  margin: 0 0 10px;
+  margin-bottom: 1.5em;
+}
+.skillsAnar .skills__progress_bar_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+.skillsAnar .skills__progress_bar_container .skill-wrrap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.skillsAnar .skills__progress_bar_container .skill-wrrap .skill-name {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+}
+.skillsAnar .skills__progress_bar_container .skill-wrrap .skill-bar {
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.062745098);
+  border-radius: 8px;
+}
+.skillsAnar .skills__progress_bar_container .skill-wrrap .blue {
+  background-color: #2c98f0 !important;
+}
+.skillsAnar .skills__progress_bar_container .skill-wrrap .blue:before {
+  color: #2c98f0 !important;
+}
+.skillsAnar .skills__progress_bar_container .skill-wrrap .red {
+  background-color: #ec5453 !important;
+}
+.skillsAnar .skills__progress_bar_container .skill-wrrap .red:before {
+  color: #ec5453 !important;
+}
+.skillsAnar .skills__progress_bar_container .skill-wrrap .yellow {
+  background-color: #f9bf3f !important;
+}
+.skillsAnar .skills__progress_bar_container .skill-wrrap .yellow:before {
+  color: #f9bf3f !important;
+}
+.skillsAnar .skills__progress_bar_container .skill-wrrap .purple {
+  background-color: #a84cb8 !important;
+}
+.skillsAnar .skills__progress_bar_container .skill-wrrap .purple:before {
+  color: #a84cb8 !important;
+}
+.skillsAnar .skills__progress_bar_container .skill-wrrap .green {
+  background-color: #2fa499 !important;
+}
+.skillsAnar .skills__progress_bar_container .skill-wrrap .green:before {
+  color: #2fa499 !important;
+}
+.skillsAnar .skills__progress_bar_container .skill-wrrap .darkblue {
+  background-color: #4054b2 !important;
+}
+.skillsAnar .skills__progress_bar_container .skill-wrrap .darkblue:before {
+  color: #4054b2 !important;
+}
+.skillsAnar .skills__progress_bar_container .skill-wrrap .skill-per {
+  height: 10px;
+  border-radius: 8px;
+  width: 0;
+  transition: 1s linear;
+  position: relative;
+}
+.skillsAnar .skills__progress_bar_container .skill-wrrap .skill-per:before {
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background-color: none;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 4px;
+  top: -27px;
+  right: 0;
+  transform: translateX(50%);
+}
+.skillsAnar .skills__progress_bar_container .skill-wrrap .skill-per:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: none;
+  top: -20px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+}
+
+@media only screen and (max-width: 700px) {
+  .skillsAnar {
+    padding: 60px 15px 135px;
+  }
+  .skillsAnar .skills__progress_bar_container {
+    grid-template-columns: auto;
+  }
 }/*# sourceMappingURL=main.css.map */
