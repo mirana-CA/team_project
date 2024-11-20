@@ -1,4 +1,5 @@
 main {
+  transition: width 300ms linear;
   width: 80%;
   margin-left: auto;
   min-height: 100vh;
@@ -208,3 +209,8 @@ ul {
 }
 
 // Recent Work End
+@media (max-width: 920px) {
+  main {
+    width: 100%;
+  }
+}
