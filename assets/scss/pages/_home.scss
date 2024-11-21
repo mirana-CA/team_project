@@ -1,10 +1,9 @@
-main  {
-  transition: width 300ms linear;
+main {
   width: 80%;
   margin-left: auto;
   min-height: 100vh;
-}
-// HERO SECTION START
+  transition: width 300ms linear;
+}// HERO SECTION START
 #hero_section {
   .hero_section__pages {
     background-image: url("https://preview.colorlib.com/theme/jackson/images/img_bg_1.jpg");
@@ -110,7 +109,7 @@ main  {
     }
   }
 }
-
+// HERO SECTION END
 // Recent Work Start
 
 * {
@@ -178,7 +177,7 @@ ul {
   }
 }
 
-// HERO SECTION END
+
 .recent_work_section_boxs {
   display: flex;
   justify-content: start;
@@ -354,7 +353,300 @@ color: #4054b2 !important;
 }
 
 // skills end
+#whatdo {
+  border: 1px solid;
+}
 
+#whatdo .whatwords {
+  font-family: sans-serif;
+}
+
+
+#whatdo .whatwords p {
+  letter-spacing: 5px;
+  color: rgba(0, 0, 0, 0.555);
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+#whatdo .whatwords h1 {
+  font-family: "Playfair Display", Georgia, serif;
+  letter-spacing: 3px;
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 10px;
+  gap: 40px;
+
+}
+
+.first {
+  display: flex;
+  gap: 20px;
+}
+
+.second {
+  display: flex;
+  gap: 20px;
+}
+
+/* Birinci boxs */
+.ideabox {
+  height: 250px;
+  width: 230px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.icon {
+  height: 60px;
+  width: 60px;
+  background-color: rgb(84, 84, 252);
+  border: 1px solid;
+  border-radius: 20px;
+  transform: translateX(80px);
+  margin-top: 5px;
+  position: relative;
+}
+
+.ideabox p {
+  margin-top: 20px;
+  font-family: "Quicksand", Arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+.ideabox h3 {
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+/* .icon ::before{
+  top: -30px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 50px 30px 50px;
+  border-color: #a51c1c00 transparent #2c98f0 transparent;
+} */
+
+
+.softvarebox {
+  height: 250px;
+  width: 230px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.icon2 {
+  height: 60px;
+  width: 60px;
+  background-color: rgb(252, 84, 84);
+  border: 1px solid;
+  border-radius: 20px;
+  transform: translateX(80px);
+  margin-top: 5px;
+  position: relative;
+}
+
+.softvarebox p {
+  margin-top: 20px;
+  font-family: "Quicksand", Arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+.softvarebox h3 {
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+
+
+
+
+
+.aplbox {
+  height: 250px;
+  width: 230px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.icon3 {
+  height: 60px;
+  width: 60px;
+  background-color: rgb(245, 241, 22);
+  border: 1px solid;
+  border-radius: 20px;
+  transform: translateX(80px);
+  margin-top: 5px;
+  position: relative;
+}
+
+.aplbox p {
+  margin-top: 20px;
+  font-family: "Quicksand", Arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+.aplbox h3 {
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+
+
+
+.designbox {
+  height: 250px;
+  width: 230px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.icon4 {
+  height: 60px;
+  width: 60px;
+  background-color: rgb(232, 84, 252);
+  border: 1px solid;
+  border-radius: 20px;
+  transform: translateX(80px);
+  margin-top: 5px;
+  position: relative;
+}
+
+.designbox p {
+  margin-top: 20px;
+  font-family: "Quicksand", Arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+.designbox h3 {
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.softvareebox {
+  height: 250px;
+  width: 230px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.icon5 {
+  height: 60px;
+  width: 60px;
+  background-color: rgb(6, 143, 29);
+  border: 1px solid;
+  border-radius: 20px;
+  transform: translateX(80px);
+  margin-top: 10px;
+  position: relative;
+}
+
+.softvareebox p {
+  margin-top: 20px;
+  font-family: "Quicksand", Arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+.softvareebox h3 {
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+
+/* Sonuncu boxs */
+.apllbox {
+  height: 250px;
+  width: 230px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.icon6 {
+  height: 60px;
+  width: 60px;
+  background-color: rgb(84, 57, 240);
+  border: 1px solid;
+  border-radius: 20px;
+  transform: translateX(80px);
+  margin-top: 10px;
+  position: relative;
+}
+
+.apllbox p {
+  margin-top: 20px;
+  font-family: "Quicksand", Arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+.apllbox h3 {
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+
+
+
+/* Sekil */
+
+.whatpicture {
+  height: 600px;
+  width: 100%;
+  
+}
+
+.pict1 {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid none;
+  
+}
+
+.pict2 {
+  height: 200px;
+  width: 100%;
+  margin: 180px 0;
+  background-color: aqua;
+  background-image: url("../../../cover_bg_1\ \(1\).webp");
+background-attachment: fixed;
+background-position: center center;
+
+gap: 20px;
+}
+.pict2 p{
+
+ margin-top: 50px;
+  color: aliceblue;
+  font-size: 25px;
+  font-family: sans-serif;
+
+}
+.picture {
+  height: 200px;
+  width: 100%;
+  background-color: bisque;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.pict3 {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid white;
+}
 //_________Who am I start__________
 .whoami_section{
   display: flex;
