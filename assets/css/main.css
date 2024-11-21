@@ -87,7 +87,9 @@ main .education .education_upper_text .education_upper_text_bold {
 }
 
 .graphic_design_lower {
-  display: none;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-in-out;
 }
 .graphic_design_lower .graphic_design_content {
   display: flex;
@@ -95,7 +97,9 @@ main .education .education_upper_text .education_upper_text_bold {
 }
 
 .bachelor_degree_lower {
-  display: none;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-in-out;
 }
 .bachelor_degree_lower .bachelor_degree_content {
   display: flex;
@@ -104,7 +108,9 @@ main .education .education_upper_text .education_upper_text_bold {
 }
 
 .diploma_technology_lower {
-  display: none;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-in-out;
 }
 .diploma_technology_lower .diploma_technology_content {
   display: flex;
@@ -113,7 +119,9 @@ main .education .education_upper_text .education_upper_text_bold {
 }
 
 .high_school_lower {
-  display: none;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-in-out;
 }
 .high_school_lower .high_school_content {
   display: flex;
@@ -122,8 +130,7 @@ main .education .education_upper_text .education_upper_text_bold {
 }
 
 .open {
-  display: block;
-  animation: zoom 1s ease-in-out;
+  max-height: 300px;
 }
 
 .color {
