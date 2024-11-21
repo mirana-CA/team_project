@@ -647,3 +647,209 @@ img {
   background-color: rgb(255, 255, 255);
   border: 1px solid white;
 }
+//_________Who am I start__________
+.whoami_section{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 40px;
+}
+
+.section_name {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.section_name p {
+  font-size: 15px;
+  color: gray;
+
+}
+
+.section_about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  div {
+    color: gray;
+    font-size: 18px;
+    width: 58%;
+
+    b {
+      color: black;
+    }
+  }
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+}
+
+.graphic_desing {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 150px;
+  width: 150px;
+  border-bottom: 2px solid blue;
+
+  i {
+    color: blue;
+    font-size: 30px;
+    margin: 25px;
+  }
+
+  p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.web_desing {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 150px;
+  width: 150px;
+  border-bottom: 2px solid red;
+
+  i {
+    color: red;
+    font-size: 30px;
+    margin: 25px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-left: 25px;
+    margin-bottom: 35px;
+  }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.Software {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 150px;
+  width: 150px;
+  border-bottom: 2px solid yellow;
+
+  i {
+    color: yellow;
+    font-size: 30px;
+    margin: 25px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-left: 25px;
+    margin-bottom: 35px;
+
+  }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.application {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 150px;
+  width: 150px;
+  border-bottom: 2px solid violet;
+
+  i {
+    color: violet;
+    font-size: 30px;
+    margin: 25px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-left: 25px;
+    margin-bottom: 35px;
+
+  }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.whoamibox {
+  width: 690px;
+  background-color: #f9bf3f;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+padding: 15px 0;
+  p {
+    font-size: 28px;
+
+  }
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-left: 30px;
+
+
+
+}
+
+.hire_me {
+
+
+  width: 90px;
+  height: 30px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-size: 16px;
+
+  }
+}
+
+@media only screen and (max-width: 950px) {
+ .whoamibox { 
+    max-width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 650px) {
+  .cards { 
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+ }
+
+ @media only screen and (max-width: 650px) {
+.section_name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+  .section_about{ 
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ 
+   }
+ }
+
