@@ -5,15 +5,16 @@ main{
   min-height: 100vh;
   padding: 0 20px;
 }
-main *{
-  line-height: 1.8;
-}
-// experience section start
+
+// fuad_experience section start
 .fuad_experience{
   display: flex;
   flex-direction: column;
   padding-top: 4em ;
   padding-bottom: 9em;
+  *{
+    line-height: 1.8;
+  }
   .text_box{
     padding: 0 15px;
     span{
@@ -131,4 +132,4 @@ main *{
     padding: 0;
   }
 }
-// experience section end
+// fuad_experience section end
