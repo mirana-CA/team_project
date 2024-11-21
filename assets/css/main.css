@@ -6,13 +6,6 @@
   text-decoration: none;
 }
 
-main {
-  width: 100%;
-  margin-left: auto;
-  border: 3px solid black;
-  min-height: 100vh;
-}
-
 .whoami_section {
   display: flex;
   flex-direction: column;
