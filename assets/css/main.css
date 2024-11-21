@@ -263,6 +263,7 @@ main {
 .pict2 {
   height: 200px;
   width: 100%;
+  margin: 180px 0;
   background-color: aqua;
   background-image: url("../../../cover_bg_1 (1).webp");
   background-attachment: fixed;
