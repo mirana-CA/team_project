@@ -21,6 +21,7 @@ ginav.hidden {
 
 nav {
   transition: transform 300ms linear;
+  min-width: 200px;
   width: 20%;
   position: fixed;
   left: 0;
@@ -30,6 +31,7 @@ nav {
   padding-inline: 20px;
   height: 100vh;
   background-color: #f1f3f5;
+  z-index: 100;
 }
 nav a {
   color: rgba(44, 152, 240, 0.8);
@@ -91,6 +93,7 @@ nav .nav_Footer p {
   color: #fff;
   border-radius: 20px;
   padding-inline: 20px;
+  z-index: 100;
 }
 
 @media (max-width: 920px) {
