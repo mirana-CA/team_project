@@ -87,6 +87,7 @@ nav .nav_Footer p {
   top: 10px;
   left: 40px;
   font-size: 24px;
+  z-index: 10;
   background-color: #343a40;
   color: #fff;
   border-radius: 20px;
@@ -584,5 +585,134 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+}
+.fuad_experience {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4em;
+  padding-bottom: 9em;
+}
+.fuad_experience * {
+  line-height: 1.8;
+}
+.fuad_experience .text_box {
+  padding: 0 15px;
+}
+.fuad_experience .text_box span {
+  margin-bottom: 15px;
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999999;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+.fuad_experience .text_box h2 {
+  font-size: 18px;
+  margin-bottom: 4em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+}
+.fuad_experience .article_container {
+  padding: 0 2.5em;
+  display: flex;
+  position: relative;
+}
+.fuad_experience .article_container .line_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fuad_experience .article_container .line_container .icon_div {
+  width: 40px;
+  height: 40px;
+  background: #2c98f0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid #f2f3f7;
+}
+.fuad_experience .article_container .line_container .icon_div.red {
+  background-color: #ec5453;
+}
+.fuad_experience .article_container .line_container .icon_div.green {
+  background-color: #2fa499;
+}
+.fuad_experience .article_container .line_container .icon_div.purple {
+  background-color: #a84cb8;
+}
+.fuad_experience .article_container .line_container .icon_div.yellow {
+  background-color: #f9bf3f;
+}
+.fuad_experience .article_container .line_container .line {
+  width: 5px;
+  height: 100%;
+  background-color: #f2f3f7;
+}
+.fuad_experience .article_container .line_container.last {
+  width: 48px;
+}
+.fuad_experience .article_container .line_container.last .line {
+  display: none;
+}
+.fuad_experience .article_container .icon_div.last {
+  background-color: transparent;
+}
+.fuad_experience .article_container article {
+  position: relative;
+  background: #f2f3f7;
+  padding: 1.5em;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.fuad_experience .article_container article .container h2 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: "Quicksand", Arial, sans-serif;
+  font-weight: 500;
+}
+.fuad_experience .article_container article .container h2 a {
+  color: black;
+}
+.fuad_experience .article_container article .container h2 span {
+  font-weight: 500;
+  opacity: 0.4;
+}
+.fuad_experience .article_container article .container p {
+  margin-bottom: calc(1.5rem + 10px);
+  color: rgba(0, 0, 0, 0.7);
+}
+.fuad_experience .article_container article:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 9px 9px 9px 0;
+  border-color: transparent #f2f3f7 transparent transparent;
+  left: 0;
+  top: 10px;
+  margin-left: -9px;
+}
+.fuad_experience .article_container.last {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (max-width: 760px) {
+  .fuad_experience .article_container {
+    padding: 0 5px !important;
+  }
+  .fuad_experience h2 {
+    font-size: 16px !important;
+  }
+  article {
+    padding: 0;
   }
 }/*# sourceMappingURL=main.css.map */
