@@ -733,7 +733,7 @@ img {
   flex-direction: column;
   justify-content: space-between;
 }
-.graphic_desing i {
+.graphic_desing .nihadicon i {
   color: blue;
   font-size: 30px;
   margin: 25px;
@@ -753,7 +753,7 @@ img {
   flex-direction: column;
   justify-content: space-between;
 }
-.web_desing i {
+.web_desing .nihadicon i {
   color: red;
   font-size: 30px;
   margin: 25px;
@@ -773,7 +773,7 @@ img {
   flex-direction: column;
   justify-content: space-between;
 }
-.Software i {
+.Software .nihadicon i {
   color: yellow;
   font-size: 30px;
   margin: 25px;
@@ -793,7 +793,7 @@ img {
   flex-direction: column;
   justify-content: space-between;
 }
-.application i {
+.application .nihadicon i {
   color: violet;
   font-size: 30px;
   margin: 25px;
