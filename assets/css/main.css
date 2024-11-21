@@ -104,6 +104,7 @@ nav .nav_Footer p {
 main {
   width: 80%;
   margin-left: auto;
+  border: 3px solid black;
   min-height: 100vh;
   transition: width 300ms linear;
 }
@@ -857,5 +858,168 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+}
+main {
+  width: 80%;
+  margin-left: auto;
+  border: 3px solid black;
+  min-height: 100vh;
+}
+main .education {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding-left: 20px;
+}
+main .education .education_upper_text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main .education .education_upper_text .education_upper_text_pale {
+  font-size: 16px;
+  font-weight: 100;
+  opacity: 0.5;
+}
+main .education .education_upper_text .education_upper_text_bold {
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.big_box_education {
+  width: 70%;
+  margin-left: 70px;
+  padding-bottom: 70px;
+}
+
+.big_box_education {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.big_box_education .box_education .box_education_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.big_box_education .box_education .box_education_lower .box_education_content {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  opacity: 0.8;
+  padding: 20px;
+  padding-bottom: 30px;
+  border: 1px solid gray;
+  min-height: 150px;
+}
+.big_box_education .box_education .box_education_head {
+  padding: 10px;
+  background-color: rgb(236, 234, 234);
+  border: 1px solid rgb(160, 159, 159);
+}
+.big_box_education .box_education .box_education_head p {
+  font-size: 20px;
+  padding-right: 10px;
+}
+.big_box_education .box_education .box_education_head h3 {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.graphic_design_lower {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-in-out;
+}
+.graphic_design_lower .graphic_design_content {
+  display: flex;
+  gap: 20px;
+}
+
+.bachelor_degree_lower {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-in-out;
+}
+.bachelor_degree_lower .bachelor_degree_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.diploma_technology_lower {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-in-out;
+}
+.diploma_technology_lower .diploma_technology_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.high_school_lower {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-in-out;
+}
+.high_school_lower .high_school_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.open {
+  max-height: 300px;
+}
+
+.color {
+  background-color: #2c98f0 !important;
+  color: white;
+}
+
+@keyframes zoom {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@media only screen and (max-width: 900px) {
+  .big_box_education {
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 70px;
+  }
+  .graphic_design_content {
+    display: flex;
+    flex-direction: column;
+  }
+  .box_education_head p {
+    font-size: 16px;
+    padding-right: 8px;
+  }
+  .box_education_head h3 {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
   }
 }/*# sourceMappingURL=main.css.map */
