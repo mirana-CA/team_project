@@ -21,6 +21,7 @@ ginav.hidden {
 
 nav {
   transition: transform 300ms linear;
+  min-width: 200px;
   width: 20%;
   position: fixed;
   left: 0;
@@ -30,6 +31,7 @@ nav {
   padding-inline: 20px;
   height: 100vh;
   background-color: #f1f3f5;
+  z-index: 100;
 }
 nav a {
   color: rgba(44, 152, 240, 0.8);
@@ -91,6 +93,7 @@ nav .nav_Footer p {
   color: #fff;
   border-radius: 20px;
   padding-inline: 20px;
+  z-index: 100;
 }
 
 @media (max-width: 920px) {
@@ -734,7 +737,7 @@ img {
   flex-direction: column;
   justify-content: space-between;
 }
-.graphic_desing i {
+.graphic_desing .nihadicon i {
   color: blue;
   font-size: 30px;
   margin: 25px;
@@ -754,7 +757,7 @@ img {
   flex-direction: column;
   justify-content: space-between;
 }
-.web_desing i {
+.web_desing .nihadicon i {
   color: red;
   font-size: 30px;
   margin: 25px;
@@ -774,7 +777,7 @@ img {
   flex-direction: column;
   justify-content: space-between;
 }
-.Software i {
+.Software .nihadicon i {
   color: yellow;
   font-size: 30px;
   margin: 25px;
@@ -794,7 +797,7 @@ img {
   flex-direction: column;
   justify-content: space-between;
 }
-.application i {
+.application .nihadicon i {
   color: violet;
   font-size: 30px;
   margin: 25px;
@@ -860,29 +863,23 @@ img {
     align-items: center;
   }
 }
-main {
-  width: 80%;
-  margin-left: auto;
-  border: 3px solid black;
-  min-height: 100vh;
-}
-main .education {
+.education {
   display: flex;
   flex-direction: column;
   gap: 100px;
   padding-left: 20px;
 }
-main .education .education_upper_text {
+.education .education_upper_text {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-main .education .education_upper_text .education_upper_text_pale {
+.education .education_upper_text .education_upper_text_pale {
   font-size: 16px;
   font-weight: 100;
   opacity: 0.5;
 }
-main .education .education_upper_text .education_upper_text_bold {
+.education .education_upper_text .education_upper_text_bold {
   font-size: 24px;
   font-weight: bold;
   opacity: 1;
