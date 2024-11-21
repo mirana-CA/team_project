@@ -41,7 +41,8 @@ nav .nav_Image {
 nav .nav_Image img {
   width: 150px;
   height: 150px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 50%;
 }
 nav .image_Title {
@@ -112,7 +113,8 @@ main {
   background-image: url("https://preview.colorlib.com/theme/jackson/images/img_bg_1.jpg");
   background-position: center;
   background-size: cover;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-repeat: no-repeat;
   width: 100%;
   min-height: 100vh;
@@ -293,7 +295,6 @@ ul {
     width: 100%;
   }
 }
-
 .skillsAnar {
   padding: 60px 37.5px 135px;
   width: 100%;
