@@ -6,177 +6,6 @@
   text-decoration: none;
 }
 
-.whoami_section {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  margin: 40px;
-}
-
-.section_name {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.section_name p {
-  font-size: 15px;
-  color: gray;
-}
-
-.section_about {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.section_about div {
-  color: gray;
-  font-size: 18px;
-  width: 58%;
-}
-.section_about div b {
-  color: black;
-}
-
-.cards {
-  display: flex;
-  gap: 30px;
-}
-
-.graphic_desing {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  height: 150px;
-  width: 150px;
-  border-bottom: 2px solid blue;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.graphic_desing i {
-  color: blue;
-  font-size: 30px;
-  margin: 25px;
-}
-.graphic_desing p {
-  font-size: 18px;
-  text-align: center;
-  margin-bottom: 35px;
-}
-
-.web_desing {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  height: 150px;
-  width: 150px;
-  border-bottom: 2px solid red;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.web_desing i {
-  color: red;
-  font-size: 30px;
-  margin: 25px;
-}
-.web_desing p {
-  font-size: 18px;
-  margin-left: 25px;
-  margin-bottom: 35px;
-}
-
-.Software {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  height: 150px;
-  width: 150px;
-  border-bottom: 2px solid yellow;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.Software i {
-  color: yellow;
-  font-size: 30px;
-  margin: 25px;
-}
-.Software p {
-  font-size: 18px;
-  margin-left: 25px;
-  margin-bottom: 35px;
-}
-
-.application {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  height: 150px;
-  width: 150px;
-  border-bottom: 2px solid violet;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.application i {
-  color: violet;
-  font-size: 30px;
-  margin: 25px;
-}
-.application p {
-  font-size: 18px;
-  margin-left: 25px;
-  margin-bottom: 35px;
-}
-
-.whoamibox {
-  width: 690px;
-  background-color: #f9bf3f;
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  padding: 15px 0;
-}
-.whoamibox p {
-  font-size: 28px;
-}
-
-.box {
-  display: flex;
-  flex-direction: column;
-  gap: 35px;
-  margin-left: 30px;
-}
-
-.hire_me {
-  width: 90px;
-  height: 30px;
-  border: 2px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.hire_me p {
-  font-size: 16px;
-}
-
-@media only screen and (max-width: 950px) {
-  .whoamibox {
-    max-width: 100%;
-  }
-}
-@media only screen and (max-width: 650px) {
-  .cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-@media only screen and (max-width: 650px) {
-  .section_name {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .section_about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 img {
   width: 100%;
   display: block;
@@ -186,7 +15,7 @@ img {
   font-family: "Quicksand", sans-serif;
 }
 
-nav.hidden {
+ginav.hidden {
   width: 20%;
 }
 
@@ -212,8 +41,7 @@ nav .nav_Image {
 nav .nav_Image img {
   width: 150px;
   height: 150px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 50%;
 }
 nav .image_Title {
@@ -284,8 +112,7 @@ main {
   background-image: url("https://preview.colorlib.com/theme/jackson/images/img_bg_1.jpg");
   background-position: center;
   background-size: cover;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   background-repeat: no-repeat;
   width: 100%;
   min-height: 100vh;
@@ -585,5 +412,177 @@ ul {
   }
   .skillsAnar .skills__progress_bar_container {
     grid-template-columns: auto;
+  }
+}
+.whoami_section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 40px;
+}
+
+.section_name {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.section_name p {
+  font-size: 15px;
+  color: gray;
+}
+
+.section_about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section_about div {
+  color: gray;
+  font-size: 18px;
+  width: 58%;
+}
+.section_about div b {
+  color: black;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+}
+
+.graphic_desing {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 150px;
+  width: 150px;
+  border-bottom: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.graphic_desing i {
+  color: blue;
+  font-size: 30px;
+  margin: 25px;
+}
+.graphic_desing p {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.web_desing {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 150px;
+  width: 150px;
+  border-bottom: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.web_desing i {
+  color: red;
+  font-size: 30px;
+  margin: 25px;
+}
+.web_desing p {
+  font-size: 18px;
+  margin-left: 25px;
+  margin-bottom: 35px;
+}
+
+.Software {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 150px;
+  width: 150px;
+  border-bottom: 2px solid yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Software i {
+  color: yellow;
+  font-size: 30px;
+  margin: 25px;
+}
+.Software p {
+  font-size: 18px;
+  margin-left: 25px;
+  margin-bottom: 35px;
+}
+
+.application {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 150px;
+  width: 150px;
+  border-bottom: 2px solid violet;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.application i {
+  color: violet;
+  font-size: 30px;
+  margin: 25px;
+}
+.application p {
+  font-size: 18px;
+  margin-left: 25px;
+  margin-bottom: 35px;
+}
+
+.whoamibox {
+  width: 690px;
+  background-color: #f9bf3f;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 15px 0;
+}
+.whoamibox p {
+  font-size: 28px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-left: 30px;
+}
+
+.hire_me {
+  width: 90px;
+  height: 30px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hire_me p {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 950px) {
+  .whoamibox {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .section_name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section_about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }/*# sourceMappingURL=main.css.map */
